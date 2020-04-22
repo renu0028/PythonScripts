@@ -1,0 +1,7 @@
+import random
+health=40
+difficulty=2
+potion_health=(random.randint(1,100))
+print("Potion health=",potion_health)
+health=int((health+potion_health)/difficulty)
+print("health=",health)
